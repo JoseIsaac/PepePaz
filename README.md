@@ -4,8 +4,8 @@ Landing page estática para presentar la trayectoria, los valores y la visión c
 
 ## Versión de presentación
 
-- El sitio se publica con GitHub Pages al ejecutar el workflow `Deploy static site to GitHub Pages` en la rama `main`.
-- En GitHub, habilita **Settings → Pages → Build and deployment → Source: GitHub Actions** si Pages aún no está activado.
+- En GitHub, selecciona **Settings → Pages → Build and deployment → Source: GitHub Actions**. Cada actualización a la rama `main` ejecuta el workflow `Deploy static site to GitHub Pages`.
+- Después del primer despliegue correcto, la URL estará disponible en la sección **Settings → Pages** del repositorio.
 - El formulario está deshabilitado en esta versión y no recopila ni transmite datos. Para contacto se pueden usar los enlaces de WhatsApp y correo; el correo configurado es temporal para pruebas.
 - El aviso de privacidad y algunos contenidos siguen siendo preliminares. Completa los datos marcados entre corchetes y revisa la información con el cliente antes de presentarlo como sitio definitivo.
 - `logo-pepe.png`, `retrato-jose-antonio-paz.png` y las imágenes `trayectoria-*.png` son los recursos gráficos de la página.
